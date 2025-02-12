@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Oakberry</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container-xl justify-content-center">
+        <a class="navbar-brand text-white" href="#">
+          <h1>Oakberry</h1>
+          <small>Real State Agency</small>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarScroll">
+          <ul class="navbar-nav ms-auto mb-2 my-4 my-lg-0 navbar-nav-scroll m-auto" style="--bs-scroll-height: 100px;">
+            <li class="nav-item text-center">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link" href="#">ABOUT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">PROPERTIES</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">AGENTS</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">BLOG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">CONTACT</a>
+            </li>
+          </ul>
+          <div class="btn-group">
+            <button class="btn  text-white" type="submit">SUBMIT A PROERTY</button>
+          </div>
+
+        </div>
+      </div>
+    </nav>
+  </header>
+  <section class="main ">
+    <div class="overlay"></div>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators d-none">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="image opacity-25">
+            <img src="image/house4.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div
+            class="carousel-caption d-flex h-100 align-items-center flex-column justify-content-center bottom-0 text-white">
+            <h2>Let Your Home Be Unique & Stylist</h2>
+            <p class="p-5">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+              <br>
+              It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+            <a href="" class="btn-group rounded-10 py-3 px-5 text-white">LEARN MORE <span class="icon"><i
+                  class="fa-solid fa-arrow-right "></i></span></a>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <div class="image opacity-25">
+            <img src="image/house2.webp" class="d-block w-100" alt="...">
+          </div>
+          <div
+            class="carousel-caption d-flex h-100 align-items-center flex-column justify-content-center bottom-0 text-white">
+            <h2>Modern House Make Better Life</h2>
+            <p>A small river named Duden flows by their place and supplies it with the necessary regelialia. <br>
+              It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+            <a href="" class="btn-group rounded-10 py-3 px-5 text-white">LEARN MORE <span class="icon"><i
+                  class="fa-solid fa-arrow-right "></i></span></a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="image opacity-25">
+            <img src="image/house3.webp" class="d-block w-100" alt="...">
+          </div>
+          <div
+            class="carousel-caption d-flex h-100 align-items-center flex-column justify-content-center bottom-0 text-white">
+            <h2>Your Property Is Our Priority</h2>
+            <p class="">A small river named Duden flows by their place and supplies it with the necessary regelialia.
+              <br>
+              It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+            </p>
+            <a href="" class="btn-group rounded-10 py-3 px-5 text-white">LEARN MORE <span class="icon"><i
+                  class="fa-solid fa-arrow-right "></i></span></a>
+          </div>
+        </div>
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <section class="our-properties">
+  <div class="row box g-0 justify-content-center ">
+    <div class="col-md-2 filter-card border p-2">
+      <div class="card-body text-center py-4 ">
+        <p class="card-text">PRICE LIMIT</p>
+      </div>
+    </div>
+    <div class="col-md-2 filter-card1 border p-2">
+      <div class="card-body text-center py-4 text-white">
+        <p class="card-text ">SEARCH</p>
+      </div>
+    </div>
+
+    <div class="col-md-2 filter-card2  border p-2">
+      <div class="card-body text-center py-4 ">
+        <p class="card-text">PROPERTY TYPE</p>
+      </div>
+    </div>
+  </section>
+
+    <div class="col-md-2 filter-card3 border p-2">
+      <div class="card-body text-center py-4 ">
+        <p class="card-text">ENTER KEYWORD</p>
+      </div>
+    </div>
+  </div>
+  <section>
+    <div class="heading text-center mt-5 py-5">
+      <h6 class="text-color">OAKBERRY CATEGORIES</h6>
+      <h1 class="display-5 fw-bold">Explore Our Categories & Places</h1>
+      <div class="row justify-content-center mt-5">
+        <div class="col-md-2 d-flex">
+          <div class="card px-5 py-5 w-100 h-100 p-4">
+            <div class="card-body">
+              <i class="fa-solid fa-landmark fa-3x"></i>
+              <div>
+                <h4 class="py-3">Land</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 d-flex text-center">
+          <div class="card px-5 py-5 w-100 h-100 p-4">
+            <div class="card-body ">
+              <i class="fa-solid fa-house fa-3x"></i>
+              <div>
+                <h4 class="py-3">Residential</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 d-flex text-center">
+          <div class="card px-5 py-5 w-100 h-100 p-4">
+            <div class="card-body ">
+              <i class="fa-solid fa-dumpster-fire fa-3x"></i>
+              <div>
+                <h4 class="py-3">commercial</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2 d-flex text-center ">
+          <div class="card px-5 py-5 w-100 h-100 p-4">
+            <div class="card-body ">
+              <i class="fa-solid fa-industry fa-3x"></i>
+              <div>
+                <h4 class="py-3">Industrial</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <div class="container ">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">California</div>
+                <div class="properties">100 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">New York</div>
+                <div class="properties">200 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Florida</div>
+                <div class="properties">422 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">London</div>
+                <div class="properties">100 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Chicago</div>
+                <div class="properties">120 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Illinois</div>
+                <div class="properties">300 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Tennessee</div>
+                <div class="properties">200 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Texas</div>
+                <div class="properties">200 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">North Carolina</div>
+                <div class="properties">200 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Charlotte</div>
+                <div class="properties">200 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Orlando</div>
+                <div class="properties">200 Properties</div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="property-box">
+                <div class="location">Atlanta</div>
+                <div class="properties">200 Properties</div>
+            </div>
+        </div>
+    </div>
+</div>
+  <section class="bg-light">
+    <div class="container mt-5 py-5">
+      <h6 class="text-center top-text p-4 fs-8">OUR PROPERTIES</h6>
+      <h1 class="text-center mb-5">FEATURED PROPERTIES</h1>
+      <div class="row">
+        <div class="col-md-3 d-flex">
+          <div class="card">
+            <img class="card-img-top" src="image/house5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="text-name">
+                <img src="image/admin.jpg" alt="" class="img1">
+                <div class="text1">
+                  <p>john Dorf</p>
+                  <p>2 weeks ago</p>
+                </div>
+              </div>
+              <div class="text2">Sunny Loft Property</div>
+              <div class="icon-text">
+                <div class="text3">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>New York</p>
+                </div>
+                <p class="text-box g-10">Sale</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="card">
+            <img class="card-img-top" src="image/house5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="text-name">
+                <img src="image/admin.jpg" alt="" class="img1">
+                <div class="text1">
+                  <p>john Dorf</p>
+                  <p>2 weeks ago</p>
+                </div>
+              </div>
+              <div class="text2">Sunny Loft Property</div>
+              <div class="icon-text">
+                <div class="text3">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>New York</p>
+                </div>
+                <p class="text-box1 g-10">Rent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="card">
+            <img class="card-img-top" src="image/house5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="text-name">
+                <img src="image/admin.jpg" alt="" class="img1">
+                <div class="text1">
+                  <p>john Dorf</p>
+                  <p>2 weeks ago</p>
+                </div>
+              </div>
+              <div class="text2">Sunny Loft Property</div>
+              <div class="icon-text">
+                <div class="text3">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>New York</p>
+                </div>
+                <p class="text-box g-10">Sale</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 d-flex">
+          <div class="card">
+            <img class="card-img-top" src="image/house5.jpg" alt="Card image cap">
+            <div class="card-body">
+              <div class="text-name">
+                <img src="image/admin.jpg" alt="" class="img1">
+                <div class="text1">
+                  <p>john Dorf</p>
+                  <p>2 weeks ago</p>
+                </div>
+              </div>
+              <div class="text2">Sunny Loft Property</div>
+              <div class="icon-text">
+                <div class="text3">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>New York</p>
+                </div>
+                <p class="text-box1 g-10">Rent</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container-fluid mt-5 mb-5">
+    <div class="video">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <div class="image">
+            <img src="image/house6.jpg" class="w-100 h-80" alt="...">
+          </div>
+          <div
+            class="carousel-caption d-flex h-100 align-items-center flex-column justify-content-center bottom-0 text-white">
+            <h3>Modern House Video</h3>
+            <p class="p-3 content">Far far away, behind the word mountains, far from the countries Vokalia and
+              Consonantia, <br> there live the blind texts.</p>
+            <a href="#" class="btn-video  px-5 text-white"> <span class="icon2"><i
+                  class="fa-solid fa-play"></i></span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="facto-section py-5">
+    <div class="container-xl">
+      <div class="row">
+        <div class="col-4 left-side-img">
+          <img src="image/house8.jpg" alt="" class="img">
+        </div>
+        <div class="col-md-8">
+          <h6 class="top-text p-4">About Us</h6>
+          <h2 class="side-heading">Oakberry A Real Estate Company</h2>
+          <p class="py-4 content">Far far away, behind the word mountains, far from the countries Vokalia and
+            Consonantia,<br> there live the
+            blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language
+            ocean.</p>
+          <div class="count py-3">
+            <div>
+              <h2>50</h2>
+              <p class="experience">Years of Experienced</p>
+            </div>
+            <div>
+              <h2>210k+</h2>
+              <p class="experience">Total Properties</p>
+            </div>
+            <div>
+              <h2>450</h2>
+              <p class="experience">Qualified Realtors</p>
+            </div>
+            <div>
+              <h1>100</h1>
+              <p class="experience">Total Branches</p>
+            </div>
+          </div>
+          <div class="right-side-img">
+            <img src="image/house6.jpg" alt="" class="img2">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="container-fluid w-100 mt-5 mb-5">
+    <div class="image-container">
+      <img src="image/house9.jpg" alt="">
+      <div class="con1">
+        <div class="box">
+          <h1>Find Best Place For <br> Leaving</h1>
+          <p>Find Best Place For Leaving</p>
+        </div>
+        <div class="button">
+          <button class="btn btn-dark">Get In Touch</button>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section class="blog">
+    <h6 class="text-center top-text p-4 fs-8">OUR BLOGS</h6>
+      <h1 class="text-center mb-5">RECENT BLOGS</h1>
+       <div class="row">
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card custom-card ">
+            <img src="image/blog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="text-col">New Home Sales Picked Up in December</h3>
+              <p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card custom-card " >
+            <img src="image/blog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="text-col">New Home Sales Picked Up in December</h3>
+              <p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card custom-card ">
+            <img src="image/blog.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h3 class="text-col">New Home Sales Picked Up in December</h3>
+              <p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6 col-12">
+          <div class="card custom-card ">
+            <img src="image/blog.jpg" >
+            <div class="card-body">
+              <h3 class="text-col">New Home Sales Picked Up in December</h3>
+              <p class="card-text">A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+            </div>
+          </div>
+        </div>
+       </div>
+  </section>
+  
+  <div class="container-fluid mt-5 ">
+    <div class="row">
+        
+        <div class="col-md-2 gallery">
+            <img src="image/gal-img1.webp" class="img gal-img">
+        </div>
+        <div class="col-md-2">
+            <img src="image/gall-img2.webp" class="img gal-img">
+        </div>
+
+        <div class="col-md-2">
+            <img src="image/gal-img3.webp" class="img gal-img">
+        </div>
+
+        <div class="col-md-2">
+            <img src="image/gal-img4.webp" class="img gal-img">
+        </div>
+
+        <div class="col-md-2">
+            <img src="image/gal-img5.webp" class="img gal-img">
+        </div>
+
+        <div class="col-md-2">
+            <img src="image/gal-img5.webp" class="img gal-img">
+        </div>
+        
+    </div>
+</div>
+<footer class="bg-dark text-light pt-5 pb-4">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-md-3">
+              <h5>Oakberry Real Estate Agency</h5>
+              <p>A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
+          </div>
+
+          <div class="col-md-2">
+              <h5>Offers</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-light text-decoration-none">Properties</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Agents</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Locations</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Client Support</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-2">
+              <h5>Company</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">About</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Blog</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Contact Us</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-2">
+              <h5>Quick Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-light text-decoration-none">Terms & Conditions</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">User's Guide</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Support Center</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Press Info</a></li>
+              </ul>
+          </div>
+
+          <div class="col-md-3">
+              <h5>Have a Question?</h5>
+              <p>203 Fake St. Mountain View, San Francisco, California, USA</p>
+              <p>+2 392 3929 210</p>
+              <p><a href="mailto:info@yourdomain.com" class="text-light text-decoration-none">info@yourdomain.com</a></p>
+          </div>
+
+      </div>
+
+      <hr class="bg-light">
+
+      <div class="text-center">
+          <p class="mb-0">© 2025 All rights reserved | This template is made with ❤️ by <a href="https://colorlib.com/" class="text-warning text-decoration-none">Colorlib</a></p>
+      </div>
+  </div>
+</footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
